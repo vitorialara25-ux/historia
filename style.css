@@ -1,0 +1,27 @@
+
+body{
+    color: rgb(66, 133, 221);
+    background: rgb(192, 38, 64);
+    margin:0px;
+     font-family: "Changa One", sans-serif;
+}
+header{
+    border-bottom: solid 2px red;
+    padding: 20px;
+    font-size: 32px;
+    color: black;
+
+    
+}
+ 
+section{
+    background-color: pink;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-rigth: 5%;
+}
