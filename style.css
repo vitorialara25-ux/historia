@@ -1,27 +1,40 @@
- 
-body{
-    color: rgb(66, 133, 221);
-    background: rgb(192, 38, 64);
-    margin:0px;
-     font-family: "Changa One", sans-serif;
+body {
+    color: rgb(236, 2, 142);
+    Background: rgb(244, 246, 250);
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
 }
-header{
-    border-bottom: solid 2px red;
+
+
+header {
+    border-bottom: solid 2px rgb(1, 1, 1);
     padding: 20px;
     font-size: 32px;
-    color: black;
+    color: rgb(9, 7, 83);
 
-    
 }
- 
-section{
-    background-color: pink;
+
+.chamada{
+    background: rgb(95, 14, 193);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+
 }
 
-.chamada-texto{
-    margin-rigth: 5%;
+.chamada-texto {
+    margin-right: 5%;
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+      display: flex;
+   overflow-x:auto;
+   gap:10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
